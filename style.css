@@ -11,18 +11,17 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(14, 25, 56);
+    background-color: rgb(14, 25, 56) !important;
 }
 
 h1 {
     color: rgb(196, 209, 236);
-    font-size: 50px;
-    text-align: center;
+    font-size: 50px !important;
+    font-weight: bold !important;
 }
 
 h3 {
     color: rgb(196, 209, 236);
-    text-align: center;
     font-size: 30px;
 }
 
@@ -42,4 +41,21 @@ ul {
 
 .horinav a:hover {
     font-weight: normal;
+}
+
+.intro {
+    color: rgb(196, 209, 236);
+    text-align: center;
+}
+
+#mmenu_screen>.row {
+    min-height: 100vh;
+}
+
+.flex-fill {
+    flex: 1 1 auto;
+}
+
+.intro-page {
+    height: 50%;
 }
