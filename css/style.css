@@ -1,0 +1,75 @@
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+body {
+    background-color: rgb(14, 25, 56) !important;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: rgb(196, 209, 236);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.horinav a {
+    color: rgb(196, 209, 236);
+    text-shadow: 2px 2px #000000;
+}
+
+.intro {
+    color: rgb(196, 209, 236);
+    text-shadow: 2px 2px #000000;
+}
+
+#mmenu_screen>.row {
+    min-height: 100vh;
+}
+
+.flex-fill {
+    flex: 1 1 auto;
+}
+
+.leftside {
+    height: 50%;
+}
+
+.rightside {
+    color: rgb(196, 209, 236);
+}
+
+#mail-link {
+    color: rgb(196, 209, 236);
+}
+
+#nav {
+    position: fixed;
+    padding-left: 20vw;
+}
+
+@media screen and (max-width:1199px) {
+    #nav {
+        position: relative;
+        padding-left: 0vw;
+    }
+
+    .intro {
+        padding-top: 15vw;
+    }
+
+    #about {
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+}

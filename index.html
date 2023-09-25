@@ -6,45 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CvSida</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="bootstrap.css.map">
-    <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap.css.map">
+
 </head>
 
 <body>
+    <script src="/js/bootstrap.js "></script>
+    <script src="/js/bootstrap.js.map "></script>
+
     <div id="mmenu_screen" class="container-fluid main_container d-flex">
-        <div class="row flex-fill">
-            <div class="intro-page col-sm-6 h-100">
-                <div class="col-sm-12">
-                    <div class="intro">
-                        <h1>Simon Clavensjö</h1>
+        <div class="row flex-fill ">
+            <div class="leftside col-xl-6 h-auto">
+                <div class="col-sm-12 w-auto pt-5" id="nav">
+                    <div class="intro text-center">
+                        <h1 class="h1 fs-1 fw-bold">Simon Clavensjö</h1>
+                        <h5 class="h5 fw-bold">Te4 student at NTIG Uppsala</h3>
                     </div>
                     <div class="horinav">
-                        <ul class="nav flex-column ">
+                        <ul class="nav flex-column text-center">
                             <li class="nav-item ">
-                                <a class="nav-link active " href="# ">Active</a>
+                                <a class="nav-link fw-bold text-decoration-none fs-2" href="#about">About</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link " href="# ">Link</a>
+                                <a class="nav-link fw-bold text-decoration-none fs-2" href="# ">Skills</a>
                             </li>
-                            <li class="nav-item ">
-                                <a class="nav-link " href="# ">Link</a>
+                            <li class="nav-item fw-bold text-decoration-none fs-2">
+                                <a class="nav-link " href="# ">Projects</a>
+                            </li>
+                            <li class="nav-item fw-bold text-decoration-none fs-2">
+                                <a class="icon-link p-3" href="https://linkedin.com/in/simon-clavensjö-a6059021b"><img
+                                        class="bi" id="LinkedIn-link" src="img/LinkedIn.png" alt="Linkedin logotyp"></a>
+                                <a class="icon-link p-3" href="https://github.com/SimonClavensjo"><img class="bi"
+                                        id="Github-link" src="img/Github.png" alt="Githublogotyp"></a>
+                                <a class="icon-link p-3" href="mailto:simon@clavensjo.se"><img class="bi" id="Mail-link"
+                                        src="img/MailIcon.png" alt="Mail Icon"></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 mmenu_screen--direktaction bg-faded flex-fill ">
+            <div class="rightside col-xl-6 bg-faded flex-fill pt-5">
+                <div class="text-start w-75 fw-bold" id="about">
+                    <h3 class="h3">About</h3>
+                    <span>Hello! Im a 19 year old student software developer. I've learnt most my coding
+                        skills in
+                        school but
+                        also some on my freetime experimenting. When im not coding i enjoy playing games, watching
+                        movies and being with friends.
+                    </span>
+                </div>
+                <div class="text-start w-75 fw-bold pt-3">
+                    <h3 class="h3">Experience</h3>
 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime beatae mollitia dolore officiis repellendus minima neque error dolores. Ex deleniti est dolor? Expedita obcaecati hic at numquam quaerat! Dicta voluptatum eos earum autem quod aperiam eaque
-                aliquam. Provident, quos architecto.
+                </div>
             </div>
         </div>
     </div>
-    <script src="bootstrap.js "></script>
-    <script src="bootstrap.js.map "></script>
+
 </body>
 
 </html>
