@@ -14,19 +14,27 @@ body {
     overflow-x: hidden;
 }
 
-h1 {
-    color: rgb(196, 209, 236);
+h1,
+h4,
+.card-text {
+    color: rgb(196, 209, 236) !important;
 }
 
 ul {
     list-style-type: none;
 }
 
-.horinav a {
-    color: rgb(196, 209, 236);
-    text-shadow: 2px 2px #000000;
+.card-body {
+    background-color: rgb(6, 16, 43);
 }
 
+a:link,
+.card-link {
+    text-decoration: none;
+    color: rgb(196, 209, 236);
+}
+
+.horinav a,
 .intro {
     color: rgb(196, 209, 236);
     text-shadow: 2px 2px #000000;
@@ -73,7 +81,12 @@ ul {
         width: 100% !important;
     }
 
-    #Skills {
+    #skills {
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    #projects {
         text-align: center !important;
         width: 100% !important;
     }
