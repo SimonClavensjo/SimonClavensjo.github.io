@@ -9,32 +9,31 @@
 }
 
 body {
-    background-color: rgb(15, 23, 41)!important;
+    background-color: rgb(15, 23, 41) !important;
     max-width: 100%;
     overflow-x: hidden;
 }
 
 h1,
 h4,
+h5,
 .card-text {
     color: rgb(196, 209, 236) !important;
+    font-family: 'Inter', sans-serif;
 }
 
-ul {
-    list-style-type: none;
+.card {
+    background-color: rgb(15, 23, 41) !important;
 }
 
-.card-body {
-    background-color: rgb(15, 23, 41);
-}
-
-.card-body:hover {
+.card :hover {
     background-color: rgb(17, 28, 54)
 }
 
 a:link,
 .card-link {
     color: rgb(196, 209, 236);
+    font-family: 'Inter', sans-serif;
 }
 
 .horinav a,
@@ -56,6 +55,7 @@ a:link,
 
 .rightside {
     color: rgb(196, 209, 236);
+    font-family: 'Inter', sans-serif;
 }
 
 #nav {
