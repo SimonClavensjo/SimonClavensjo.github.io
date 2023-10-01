@@ -30,6 +30,15 @@ h5,
     background-color: rgb(17, 28, 54)
 }
 
+.btn {
+    background-color: rgb(15, 23, 41) !important;
+    color: rgb(196, 209, 236) !important;
+}
+
+.btn :hover {
+    background-color: rgb(17, 28, 54) !important;
+}
+
 a:link,
 .card-link {
     color: rgb(196, 209, 236);
@@ -83,6 +92,11 @@ a:link,
         width: 100% !important;
     }
 
+    #aboutText {
+        width: 75%;
+        margin: 0 auto;
+    }
+
     #skills {
         text-align: center !important;
         width: 100% !important;
@@ -96,6 +110,14 @@ a:link,
     #experience {
         text-align: center !important;
         width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    #aboutText {
+        margin: 0;
+        width: 100%;
     }
 
 }
