@@ -1,0 +1,11 @@
+on: 
+  pull_request:
+    branches: 
+      - main
+jobs:
+  run-tests:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: pip install selenium
+      - run: python -m unittest discover -s tests

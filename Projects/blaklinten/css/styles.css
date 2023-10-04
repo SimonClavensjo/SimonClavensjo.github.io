@@ -1,0 +1,39 @@
+body {
+    background-image: url("../images/purple_flower.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(7px);
+    min-height: 100vh;
+}
+
+@font-face {
+    /* License: ../fonts/DMSerifDisplay/OFL.txt */
+    font-family: "DM Serif Display";
+    src: url("../fonts/DMSerifDisplay/DMSerifDisplay-Regular.ttf");
+}
+
+@font-face {
+    /* License: ../fonts/Assistant/OFL.txt */
+    font-family: "Assistant";
+    src: url("../fonts/Assistant/Assistant-Regular.ttf");
+}
+
+h1,
+h2,
+h3,
+#currently-open-text-navbar {
+    font-family: "DM Serif Display";
+}
+
+.icon-link {
+    font-size: 2em;
+}
+
+a.navbar-brand img {
+    height: 3rem;
+}
+
+#opening-hours {
+    max-width: 300px;
+}

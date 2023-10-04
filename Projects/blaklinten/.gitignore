@@ -1,0 +1,11 @@
+# Node
+node_modules/
+
+# Python
+__pycache__/
+
+# Visual Studio Code
+.vscode/
+
+# Screenshots
+screenshots/
