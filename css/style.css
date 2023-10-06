@@ -32,11 +32,8 @@ h5,
 
 .btn {
     background-color: rgb(15, 23, 41) !important;
+    border-color: rgb(196, 209, 236) !important;
     color: rgb(196, 209, 236) !important;
-}
-
-.btn :hover {
-    background-color: rgb(17, 28, 54) !important;
 }
 
 a:link,
